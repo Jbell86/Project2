@@ -8,5 +8,7 @@
  My partner emailed his link at 12:21PM on 10/3/2020
  I emailed my partner the link for my repo at 9:20PM 10/3/2020
  
+ I forked my partners repo at 9:31PM 10/3/2020
+ 
  
  Here is the source for the tutorial: https://linuxconfig.org/bash-scripting-tutorial-for-beginners#h12-input-output-and-error-redirections
