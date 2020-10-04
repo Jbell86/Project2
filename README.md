@@ -5,6 +5,8 @@
  to backup directories for different users.  One part in particular that I had an issue with was using the vi text editor.
  I did not catch the part in the pdf that said to use nano until I was halfway through the tutorial.  
  
- I emailed my partner the link for my repo at 9:14PM 10/3/2020
+ My partner emailed his link at 12:21PM on 10/3/2020
+ I emailed my partner the link for my repo at 9:20PM 10/3/2020
+ 
  
  Here is the source for the tutorial: https://linuxconfig.org/bash-scripting-tutorial-for-beginners#h12-input-output-and-error-redirections
