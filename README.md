@@ -12,3 +12,5 @@
  
  
  Here is the source for the tutorial: https://linuxconfig.org/bash-scripting-tutorial-for-beginners#h12-input-output-and-error-redirections
+
+ Code Review Kenny Vane: Your code is good, there are no errors. The code reflects your reference source. I would recommend adding the final touches from the tutorial as this adds how many total files and directories have been backed up.

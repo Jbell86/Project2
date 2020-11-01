@@ -3,7 +3,8 @@
 # This bash script is used to back up a user's home directory to /tmp/.
 
 function backup {
-
+# The purpose of this if-else block is to take a single argument and if that argument is left blank then it uses whoami to load the current user's name.
+# If the user's name is already provided then it goes to the home of that user.
 if [ -z $1 ]; then
 	user=$(whoami)
 else
@@ -51,7 +52,7 @@ echo "Files to be included: $src_files"
 echo "Directories to be included: $src_directories"
 echo "Files archived: $arch_files"
 echo "Directories archived: $arch_directories"
-
+# The purpose of this if-else block is to give the user information on the status of the backup.
 if [ $src_files -eq $arch_files ]; then
 echo "Backup of $input completed!"
 echo "Details about the backup file:"
@@ -61,7 +62,7 @@ else
 	echo "Backup of $input failed!"
 fi
 }
-
+# This for block is used to backup the directory.
 for directory in $*; do
 	backup $directory
 done;
